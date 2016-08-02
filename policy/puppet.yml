@@ -1,0 +1,7 @@
+---
+- !policy
+  id: puppet
+  body:
+  - !layer agents
+  - !host-factory
+      layers: [ !layer agents ]

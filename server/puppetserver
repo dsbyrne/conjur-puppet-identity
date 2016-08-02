@@ -1,0 +1,8 @@
+JAVA_BIN="/usr/bin/java"
+JAVA_ARGS="-Xms512m -Xmx512m"
+USER="puppet"
+GROUP="puppet"
+INSTALL_DIR="/opt/puppetlabs/server/apps/puppetserver"
+CONFIG="/etc/puppetlabs/puppetserver/conf.d"
+BOOTSTRAP_CONFIG="/etc/puppetlabs/puppetserver/bootstrap.cfg"
+SERVICE_STOP_RETRIES=60

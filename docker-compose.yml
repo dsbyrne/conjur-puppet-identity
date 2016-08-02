@@ -1,0 +1,12 @@
+puppet:
+  build: server
+  external_links:
+    - conjur
+
+agent:
+  build: agent
+  links:
+    - puppet
+  external_links:
+    - conjur
+
